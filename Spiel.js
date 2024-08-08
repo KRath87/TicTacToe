@@ -8,7 +8,7 @@ function Spielfeld() {
 
 function Zug1() {
   let dec1 = prompt("Spieler 1, wo setzt du dein x? ");
-  if (dec1 < 1 || dec1 > 9 || arr[dec1] === "x" || arr[dec1] === "o") { //if (dec1 != 1 || dec1  != 2 || dec1!= 3 dec1 !=4 || dec1  != 5 || dec1!= 6 dec1 !=7 || dec1  != 8 || dec1!= 9 dec1 !=4)
+  if (dec1 < "1" || dec1 > "9"|| arr[dec1] === "x" || arr[dec1] === "o") { 
     console.log("");
     console.log("Bitte gebe eine gültige Position ein! ");
     console.log("");
@@ -20,7 +20,7 @@ function Zug1() {
 
 function Zug2() {
   let dec2 = prompt("Spieler 2, wo setzt du dein o? ");
-  if (dec2 < 1 || dec2 > 9 || arr[dec2] === "x" || arr[dec2] === "o") {
+  if (dec2 < "1" || dec2 > "9" || arr[dec2] === "x" || arr[dec2] === "o") {
     console.log("");
     console.log("Bitte gebe eine gültige Position ein! ");
     console.log("");
